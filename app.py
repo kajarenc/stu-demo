@@ -9,6 +9,6 @@ with st.echo():
 
 if not st.user.email:
     st.write(
-        "You are not logged in :( Please log in with SSO to see your email address.")
+        "You are not logged in :( Please log in with Google or SSO to see your email address.")
 else:
     st.write(f"You are logged in as {st.user.email}!")
