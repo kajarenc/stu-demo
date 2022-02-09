@@ -12,7 +12,3 @@ if not st.user.email:
         "You are not logged in :( Please log in with SSO to see your email address.")
 else:
     st.write(f"You are logged in as {st.user.email}!")
-
-if st.user.email == "ben@streamlit.io":
-    st.write("You are logged in as Ben!")
-    st.balloons()
