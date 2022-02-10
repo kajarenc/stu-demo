@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Hello st.user")
+st.title("Hello `st.user` !")
 
 with st.echo():
     st.write(st.user)
